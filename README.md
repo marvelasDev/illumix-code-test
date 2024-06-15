@@ -1,4 +1,4 @@
-# Illumix Tic-Tac-Toe Code Test
+# Tic-Tac-Toe Code Test
 
 To test the project, open the scene: Scenes/Game, and then run it. The intended orientation is Landscaped. Tested form factors are as follows:
 - Full HD (1920x1080)
@@ -13,4 +13,5 @@ Project was created for Unity Editor version 2022.3.33f1, per the spec. For ease
 1. Open a New Project in your current Unity Editor.
 2. Drag the Illumix_TicTacToe.unitypackage file from your Finder/Explorer into the Assets folder in Unity.
 3. Select 'Import' on the bottom right.
-4. Enjoy!
+4. In Build Settings, make sure the Game.unity scene is the only scene (index 0).
+5. Enjoy!
