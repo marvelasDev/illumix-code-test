@@ -14,4 +14,8 @@ Project was created for Unity Editor version 2022.3.33f1, per the spec. For ease
 2. Drag the Illumix_TicTacToe.unitypackage file from your Finder/Explorer into the Assets folder in Unity.
 3. Select 'Import' on the bottom right.
 4. In Build Settings, make sure the Game.unity scene is the only scene (index 0).
-5. Enjoy!
+5. Press Play and enjoy!
+
+<hr>
+You can also play a WebGL Version here:
+http://marvelas1.itch.io/illumix-tictactoe
