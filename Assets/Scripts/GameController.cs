@@ -261,7 +261,7 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("AI's move");
 
-        int randomWaitTime = Random.Range(0, 2); //make CPU appear to be "thinking"
+        float randomWaitTime = Random.Range(0.25f, 1.25f); //make CPU appear to be "thinking"
         yield return new WaitForSeconds(randomWaitTime);
         Debug.Log("randomWaitTime: " + randomWaitTime);  
 
