@@ -11,5 +11,5 @@ Optional: While on the Start Screen, change the animated backdrop's color using 
 
 Project was created for Unity Editor version 2022.3.33f1, per the spec. For ease of use and best compatibility, I have also inclued a unity package containing the project. To use:
 1. Open a New Project in your current Unity Editor
-2. Drag the .unitypackage file from your Finder into the Assets folder in Unity
+2. Drag the Illumix_TicTacToe.unitypackage file from your Finder into the Assets folder in Unity
 3. Enjoy!
