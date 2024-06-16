@@ -261,9 +261,12 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("AI's move");
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         float randomWaitTime = Random.Range(0.25f, 1.25f); //make CPU appear to be "thinking"
         yield return new WaitForSeconds(randomWaitTime);
-        Debug.Log("randomWaitTime: " + randomWaitTime);  
+        Debug.Log("randomWaitTime: " + randomWaitTime);
 
         bool foundEmptySpot = false;
 
@@ -274,8 +277,12 @@ public class GameController : MonoBehaviour
             if (buttonList[randomNum].GetComponentInParent<Button>().IsInteractable())
             {
                 // select random empty space
-                buttonList[randomNum].GetComponentInParent<Button>().onClick.Invoke(); 
+                buttonList[randomNum].GetComponentInParent<Button>().onClick.Invoke();
                 foundEmptySpot = true;
+
+                yield return new WaitForSeconds(0.25f);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
         }
     }
