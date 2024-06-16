@@ -14,9 +14,9 @@ To test the project, open the scene: Scenes/Game.unity, and then press Play. The
 Optional:
 While on the Start Screen, change the animated backdrop's color using the provided Dropdown menu. The app will remember your chosen color even after you return to the Start Screen, or re-enter Play Mode.
 
-Project was created for Unity Editor version 2022.3.33f1, per the spec. For ease of use and best compatibility, I have also included a unity package containing the project [**here.**](http://66.226.136.172/temp/Illumix_TicTacToe_Unity.unitypackage)  
+Project was created for Unity Editor version 2022.3.33f1, per the spec. For ease of use and best compatibility, I have also included a **.unitypackage** file containing the project [**here.**](http://66.226.136.172/temp/Illumix_TicTacToe_Unity.unitypackage)  
 
-**To use:**
+**To use the .unitypackage File:**
 1. Open a New Project in your current Unity Editor.
 2. Drag the downloaded Illumix_TicTacToe_Unity.unitypackage file from your Finder/Explorer into the Assets folder.
 3. Select 'Import' on the bottom right.
