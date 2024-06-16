@@ -232,6 +232,9 @@ public class GameController : MonoBehaviour
         SetBoardInteractable(true);
         restartButton.SetActive(false);
         ResetWinLine();
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void ResetWinLine()
