@@ -267,7 +267,8 @@ public class GameController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        float randomWaitTime = Random.Range(0.25f, 1.25f); //make CPU appear to be "thinking"
+        float randomWaitTime = (moveCount < 1) ? 0.1f : Random.Range(0.25f, 1.25f); //prevent inadvertent user input on first move, and make CPU appear to be "thinking"
+        
         yield return new WaitForSeconds(randomWaitTime);
         Debug.Log("randomWaitTime: " + randomWaitTime);
 
